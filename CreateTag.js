@@ -268,4 +268,19 @@ const Create = new class CreateTag{
         uo.appendChild(m)
         return [uo,m]
     }
+    /**
+     * 创建label标签
+     * @param {string} c 
+     * @param {string} i 
+     * @param {HTMLInputElement} obj 
+     * @returns {HTMLLabelElement|[HTMLLabelElement,obj]}
+     */
+    label(c, i, obj) {
+        let m = this.tag("label", c, i)
+        if (obj) {
+            m.appendChild(obj)
+            return [m, obj]
+        }
+        else return m
+    }
 }
