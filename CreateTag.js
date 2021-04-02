@@ -1,9 +1,7 @@
 /**
  * 快速创建一个标签。 https://github.com/853Lab/CreateTag.js
- * 
- * 作者：Sonic853
- * 
- * 许可证：THE COFFEEWARE LICENSE
+ * @author Sonic853
+ * @license "THE COFFEEWARE LICENSE"
  */
 const Create = new class CreateTag{
     /**
